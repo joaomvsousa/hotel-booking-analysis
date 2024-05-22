@@ -32,7 +32,9 @@ geopandas==0.14.4
 kiwisolver==1.4.5
     # via matplotlib
 matplotlib==3.9.0
-    # via -r requirements-dev.in
+    # via
+    #   -r requirements-dev.in
+    #   seaborn
 numpy==1.26.4
     # via
     #   -r requirements-dev.in
@@ -40,6 +42,7 @@ numpy==1.26.4
     #   geopandas
     #   matplotlib
     #   pandas
+    #   seaborn
     #   shapely
 packaging==24.0
     # via
@@ -49,6 +52,7 @@ pandas==2.2.2
     # via
     #   -r requirements-dev.in
     #   geopandas
+    #   seaborn
 pillow==10.3.0
     # via matplotlib
 pyparsing==3.1.2
@@ -61,6 +65,8 @@ python-dateutil==2.9.0.post0
     #   pandas
 pytz==2024.1
     # via pandas
+seaborn==0.13.2
+    # via -r requirements-dev.in
 shapely==2.0.4
     # via geopandas
 six==1.16.0

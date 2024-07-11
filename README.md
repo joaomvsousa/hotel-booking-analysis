@@ -17,14 +17,6 @@ The main goals of this project are:
 ## Data Source
 The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand). It includes information on hotel bookings, guest demographics, booking details, and more. The dataset was collected from two hotels: one located in a city and the other in a resort area. It was collected for the purpose of analyzing hotel booking demand and related factors, aligning with the main goals of this project.
 
-## File Structure
-- `notebooks/hotel_data.ipynb`: Jupyter notebook containing the main script for analyzing hotel bookings.
-- `data/`: Directory containing the dataset.
-- `images/`: Directory containing charts in .png format.
-- `slides/`: Directory containing information about the presentation.
-- `README.md`: This file providing an overview of the project.
-
-
 ## Methodology
 For this analysis, a straightforward approach was taken. The dataset was cleaned to ensure accuracy and completeness, handling missing values and duplicates. The analysis primarily involved calculating averages and transforming values into percentages to perform exploratory data analysis (EDA) statistics. Python and various libraries were utilized for data manipulation, visualization, and statistical analysis.
 
@@ -41,6 +33,14 @@ TA/TO channels are responsible for the majority of reservations.
 ### Cancellations Analysis
 - As lead time increases, the probability of cancellation decreases.
 - 61% of group bookings end in cancellations, indicating a significant cancellation rate within this segment.
+
+
+## File Structure
+- `notebooks/hotel_data.ipynb`: Jupyter notebook containing the main script for analyzing hotel bookings.
+- `data/`: Directory containing the dataset.
+- `images/`: Directory containing charts in .png format.
+- `slides/`: Directory containing information about the presentation.
+- `README.md`: This file providing an overview of the project.
 
 ## Technologies Used
 This project is implemented in Python and utilizes various libraries for data analysis and visualization. Refer to the `requirements-dev.txt` file for the required libraries.
